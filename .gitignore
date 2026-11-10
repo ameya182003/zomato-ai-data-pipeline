@@ -1,0 +1,58 @@
+# Credentials and environment variables
+.env
+.env.*
+!.env.example
+credentials.json
+secrets/
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# dbt credentials
+**/.user.yml
+profiles.yml
+
+# Environment credentials
+.env
+.env.*
+!.env.example
+
+# Generated embeddings
+*.parquet
+
+# Large datasets
+data/*.csv
+
+# Generated AI embeddings
+*.parquet
+
+# dbt credentials
+**/profiles.yml
+**/.user.yml
+
+# Environment credentials
+.env
+.env.*
+!.env.example
